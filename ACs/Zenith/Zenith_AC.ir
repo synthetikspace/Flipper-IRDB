@@ -1,19 +1,21 @@
 Filetype: IR signals file
 Version: 1
+#
+# Zenith_AC
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 81 66 00 00
 command: 81 7E 00 00
 # 
-name: Temp_down
+name: TEMP-
 type: parsed
 protocol: NECext
 address: 81 66 00 00
 command: 8A 75 00 00
 # 
-name: Temp_up
+name: TEMP+
 type: parsed
 protocol: NECext
 address: 81 66 00 00
@@ -31,7 +33,7 @@ protocol: NECext
 address: 81 66 00 00
 command: 9F 60 00 00
 # 
-name: Mode
+name: MODE
 type: parsed
 protocol: NECext
 address: 81 66 00 00
